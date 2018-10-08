@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    font: 1em/1.4 sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.row {
+    margin-top: 1.5em;
+}
+label {
+    font-size: 0.8em;
+    color: #999;
+}
+.ss-option,
+.ss-single-selected .placeholder {
+    position: relative;
+}
+.ss-badge {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: normal;
+    font-size: 0.8em;
+    line-height: 1.25;
+    text-align: center;
+    padding: 0 0.4em;
+    background-color: darkgreen;
+    color: #fff;
+}
+.ss-main .ss-content .ss-list .ss-option .ss-badge {
+    margin-top: 0.4em;
+    margin-right: 0.4em;
+}
